@@ -1,0 +1,608 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background: #e9ecef;
+}
+a {
+	text-decoration: none;
+}
+.button span {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 29px;
+	color: #F5F3E0;
+	text-shadow: -0.5px -0.5px 0 #D3D0D0, 0.5px -0.5px 0 #D3D0D0, -0.5px 0.5px 0 #D3D0D0, 
+	0.5px 0.5px 0 #B9B4B4;
+}
+.button {
+
+	background-color: #F66213;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 60px;
+	border-radius: 50px;
+	padding-top: 15px;
+	text-align: center;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+#quiz-section .button {
+	width: 240px;
+	height: 65px;
+}
+#contact .button {
+	padding-top: 8px;
+}
+#header {
+	width: 20vw;
+	height: 100%;
+	background: #FCFCFC;
+	position: fixed;
+}
+.logo {
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	margin-top: 30px;
+  	
+}
+.logo img {
+	width: 100%;
+}
+.fullpage {
+	margin-left: 21%;
+	width: 77vw;
+}
+.main-img img {
+	width: 100%;
+}
+.main-img {
+	
+	width: 80%;
+	
+}
+
+ul.menu {
+	list-style-type: none;
+	margin-left: auto;
+  	margin-right: auto;
+}
+ul.menu li a {
+	color: black;
+	font-family: 'Inter', sans-serif;
+	font-size: 24px;
+	line-height: 39px;
+	padding: 10px;
+}
+
+ul.menu li {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+ul.menu li a:visited {
+text-decoration: none;
+color: black;
+}
+
+ul.menu li a:hover {
+	cursor: pointer;
+	border-bottom: solid 2px;
+	border-color: #74A4BC;
+	
+}
+
+/*.content {
+	width: 79vw;
+	padding-left: 80px;
+	/*padding-right: 80px;
+}
+/*#hero-page a {
+	background-color: #F66213;
+
+	border-radius: 50px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+*/
+/*#hero-page a.button,  {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}*/
+.history-club {
+	display: flex;
+	justify-content: space-evenly;
+	height: 100px;
+	padding-top: 30px;
+	/*margin-top: 30px;*/
+	margin-bottom: 50px;
+	
+}
+
+.club {
+ 	width: 30%;
+ 	
+ }
+ .club img {
+ 	width: 100%;
+ }
+ .history {
+ 	width: 55%;
+ }
+ .history img {
+ 	width: 100%;
+ }
+.main-img {
+	position: absolute;
+	top: 130px;
+	right: 6px;
+	max-width: 79.2%;
+	
+}
+
+.green-circle{
+width: 241px;
+height: 233px;
+background-color: #B6D6CC;
+border-radius: 50%;
+animation-name: green-circle-animation;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes green-circle-animation{
+	100%{
+		transform: translateY(40px);
+	}
+}
+.blue-circle{
+width: 258.11px;
+height: 248.62px;
+background-color: #74A4BC;
+border-radius: 50%;
+margin-top: 90px;
+animation-name: blue-circle-animation;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes blue-circle-animation{
+	100%{
+		transform: translateY(-30px);
+	}
+}
+.red-circle{
+width: 204.34px;
+height: 196.83px;
+background-color: #EF5126;
+border-radius: 50%;
+animation-name: red-circle-animation;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes red-circle-animation{
+	100%{
+		transform: translateY(20px);
+	}
+}
+.yellow-circle{
+width: 268.86px;
+height: 258.98px;
+background-color: #FFBF46;
+border-radius: 50%;
+margin-top: 80px;
+animation-name: yellow-circle-animation;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes yellow-circle-animation{
+	100%{
+		transform: translateY(-20px);
+	}
+}
+.circles{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	
+}
+#about-section {
+	width: 80%;
+	margin: 100px auto;
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 44px;
+}
+#about-section div{
+	margin-top: 20px;
+}
+.about-bold {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.about-h2 img {
+	width: 100%;
+  }
+ .about-h2 {
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
+ }
+#quiz-section {
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+margin-top: 100px;
+margin-bottom: 100px;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+#quiz-section .quiz {
+text-align: center;
+font-size: 25px;
+margin-top: 45px;
+margin-bottom: 45px;
+}
+ .quiz-h2 img {
+  	width: 100%;
+ }
+ .quiz-h2 {
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
+ }
+ #quiz-section .button {
+ 	width: 265px;
+ 	height: 65px;
+ 	padding-top: 17px;
+ }
+ .rus-block, .ussr-block {
+ 	display: flex;
+ 	flex-direction: row-reverse;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	margin-top: 50px;
+margin-bottom: 50px;
+ }
+ .rus-block img {
+ 	width: 50%;
+ }
+.kozak-block, .ukraine-block  {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	margin-top: 50px;
+margin-bottom: 50px;
+
+ }
+ .ukraine-block  {
+ 	margin-bottom: 70px;
+ }
+ .description{
+ 	width: 45%;
+ 	
+ }
+ 
+ .kozak-block img {
+ 	width: 50%;
+ 	height: 60%;
+ }
+ 
+ .ussr-block img {
+ 	width: 50%;
+ 	height: 60%;
+ }
+ 
+ .ukraine-block img {
+ 	width: 50%;
+ }
+ #politic-section {
+ 	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 35px;
+	margin-top: 100px;
+margin-bottom: 100px;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+ }
+#politic-section div.politic {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 30px;
+	grid-row-gap: 35px;
+	margin-top: 50px;
+}
+
+.politic-h2 img {
+  	max-width: 100%;
+  }
+  .politic-h2 {
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
+  }
+  .visiting-time-rule, .alcohol-rule, .quantity-rule, .parents-rule {
+  	display: flex;
+  	
+  	align-items: center;
+  }
+  .alcohol-rule img, .quantity-rule img, .parents-rule img {
+  	width: 98%;
+  }
+  .politic-description{
+  	width: 60%;
+  	margin-left: 15px;
+  }
+  #contact {
+  	text-align: center;
+  	font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 40px;
+  }
+#contact h2{
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 71px;
+}
+#contact h3{
+font-weight: 700;
+}
+
+  #contact iframe {
+  	width: 100%;
+  }
+  .socials{
+  	display: flex;
+	padding-left: 140px;
+	padding-right: 70px;
+	margin-top: 80px;
+margin-bottom: 50px;
+  }
+.adress {
+	display: flex;
+	justify-content: space-evenly;
+}
+.social-media img {
+	width: 100%;
+}
+.social-media {
+	display:  flex;
+	justify-content: space-evenly;
+	width: 40%;
+}
+
+
+
+
+@media only screen and (max-width: 376px) {
+.green-circle {
+	width: 60px;
+	height: 60px;
+}
+.blue-circle {
+	width: 65px;
+	height: 65px;
+}
+.red-circle {
+	width: 60px;
+	height: 60px;
+}
+.yellow-circle {
+	width: 70px;
+	height: 70px;
+}
+.circles {
+	margin-top: -20px;
+	margin-bottom: 110px;
+}
+.history-club {
+	margin-bottom: 100px;
+}
+  ul.menu li a {
+	color: black;
+	font-family: 'Inter', sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+h3{
+	font-size: 12px;
+	line-height: 15px;
+}
+.about-h2 {
+	width: 80%;
+}
+#quiz-section .quiz{
+	font-size: 12px;
+	line-height: 15px;
+}
+#politic-section p {
+	font-family: 'Inter', sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+}
+#politic-section div.politic {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+}
+.parent_icon img, .people-icon img, .no-alcohol-icon img, .clock-icon img {
+	width: 100%;
+}
+.parent-icon, .people-icon, .no-alcohol-icon, .clock-icon {
+	width: 25%;
+}
+.politic-description{
+  	width: 60%;
+  }
+  .politic-h2 {
+  	width: 90%;
+  }
+.kozak-block, .ukraine-block, .rus-block, .ussr-block  {
+ 	display: flex;
+ 	flex-direction: column-reverse;
+ 	font-size: 10px;
+	line-height: 15px;
+ }
+ .description {
+ 	width: 90%;
+ 	margin-bottom: 30px;
+ }
+ .club {
+ 	width: 50%;
+ 	margin-top: 10px;
+ }
+ 
+ .history {
+ 	width: 85%;
+ 	margin-top: 30px;
+ }
+ 
+.main-img {
+	right: 2px;
+	top: 190px;
+}
+
+.rus-block {
+	margin-top: -10px;
+}
+.adress {
+	display: flex;
+	flex-direction: column;
+}
+#header {
+	width: 75px;
+}
+
+.history-club {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+#about-section {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.button{
+	font-size: 12px;
+	line-height: 15px;
+	
+	width: 180px;
+	height: 45px;
+	
+	padding-top: 12px;
+	text-align: center;
+	text-shadow: -0.5px -0.5px 0 #D3D0D0, 0.5px -0.5px 0 #D3D0D0, -0.5px 0.5px 0 #D3D0D0, 
+	0.5px 0.5px 0 #B9B4B4;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.button span {
+	font-size: 18px;
+	line-height: 20px;
+}
+#quiz-section .button {
+ 	width: 200px;
+ 	height: 45px;
+ 	padding-top: 12px;
+ }
+ #quiz-section .button span {
+ 	font-size: 17px;
+	line-height: 18px;
+ }
+.contact-lva, .contact-heroiv {
+	margin-top: 20px;
+}
+
+.contact-lva p, .contact-heroiv p {
+	font-size: 12px;
+	line-height: 15px;
+} 
+.adress {
+	margin-bottom: -20px;
+}
+.adress img {
+	width: 10%;
+}
+.social-media img {
+	width: 75%;
+}
+.social-media {
+	width: 110%;
+	margin-bottom: 23px;
+	}
+/*.social-media img{
+	width: 40px;
+}*/
+.socials {
+	display: flex;
+	flex-direction: column;
+	margin-left: -80px;
+}
+.socials .button {
+	/*width: 150px;
+	height: 30px;
+	padding-top: -10px;*/
+	
+	height: 40px;
+	/*position: relative;
+	top: 23px;*/
+	
+}
+/*.socials .button span{
+	font-size: 12px;
+	line-height: 15px;
+}*/
+#contact h2 {
+	font-size: 30px;
+	line-height: 32px;
+}
+iframe {
+	height: 40%;
+}
+.rus-block img, .kozak-block img, .ussr-block img, .ukraine-block img {
+	width: 70%;
+}
+/*.viber-icon img {
+	width: 100%;
+}
+/*.viber-icon {
+	width: 10%;
+}*/
+}
+
+
+
+
